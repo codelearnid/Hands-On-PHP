@@ -158,7 +158,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="5" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>5</b> Interactive component</a></li>
 <li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<!-- <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li> -->
 </ul>
 
       </nav>
@@ -247,42 +247,35 @@ Elemen <code>&lt;body&gt;</code> berisi konten utama halaman web yang akan ditam
 <span id="cb3-28"><a href="pengenalan-html.html#cb3-28" tabindex="-1"></a><span class="kw">&lt;/body&gt;</span></span></code></pre></div></li>
 </ul></li>
 </ol>
-<p>Dalam contoh di atas, elemen-elemen seperti <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, dan <code>&lt;footer&gt;</code> digunakan untuk mengatur struktur dan tata letak halaman.
-2. Tag HTML:
-Tag adalah elemen dasar dalam HTML yang digunakan untuk mengelompokkan, mengatur, dan mendefinisikan struktur dan konten dalam halaman web. Setiap tag dimulai dengan tanda &lt; dan diakhiri dengan tanda &gt;. Ada dua jenis tag: tag tunggal dan tag pasangan.</p>
-<pre><code>- Tag Tunggal: Tag tunggal tidak memiliki tag penutup dan umumnya digunakan untuk menampilkan elemen yang tidak memiliki konten, seperti gambar atau garis pemisah. Contoh: ```&lt;img&gt;``` untuk gambar.
-- Tag Pasangan: Tag pasangan memiliki tag pembuka dan tag penutup yang membungkus konten di antara keduanya. Contoh: ```&lt;p&gt;``` untuk paragraf. 
-
-Contoh tag tunggal:
-
-```html
-&lt;img src=&quot;gambar.jpg&quot; alt=&quot;Gambar Deskripsi&quot;&gt;
-```
-Contoh tag pasangan:
-
-```html
-&lt;p&gt;Ini adalah paragraf teks.&lt;/p&gt;
-```</code></pre>
+<p>Dalam contoh di atas, elemen-elemen seperti <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, dan <code>&lt;footer&gt;</code> digunakan untuk mengatur struktur dan tata letak halaman.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Tag HTML:
+Tag adalah elemen dasar dalam HTML yang digunakan untuk mengelompokkan, mengatur, dan mendefinisikan struktur dan konten dalam halaman web. Setiap tag dimulai dengan tanda &lt; dan diakhiri dengan tanda &gt;. Ada dua jenis tag: tag tunggal dan tag pasangan.</li>
+</ol>
+<ul>
+<li>Tag Tunggal: Tag tunggal tidak memiliki tag penutup dan umumnya digunakan untuk menampilkan elemen yang tidak memiliki konten, seperti gambar atau garis pemisah. Contoh: <code>&lt;img&gt;</code> untuk gambar.</li>
+<li>Tag Pasangan: Tag pasangan memiliki tag pembuka dan tag penutup yang membungkus konten di antara keduanya. Contoh: <code>&lt;p&gt;</code> untuk paragraf.</li>
+</ul>
+<p>Contoh tag tunggal:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="pengenalan-html.html#cb4-1" tabindex="-1"></a>                  <span class="kw">&lt;img</span> <span class="er">src</span><span class="ot">=</span><span class="st">&quot;gambar.jpg&quot;</span> <span class="er">alt</span><span class="ot">=</span><span class="st">&quot;Gambar Deskripsi&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
+<p>Contoh tag pasangan:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="pengenalan-html.html#cb5-1" tabindex="-1"></a>                   <span class="kw">&lt;p&gt;</span>Ini adalah paragraf teks.<span class="kw">&lt;/p&gt;</span></span></code></pre></div>
 <ol start="3" style="list-style-type: decimal">
 <li><p>Atribut HTML:
 Atribut adalah informasi tambahan yang dapat ditambahkan ke dalam tag untuk memberikan detail atau pengaturan lebih lanjut. Setiap atribut memiliki nama dan nilai yang ditempatkan di dalam tag pembuka. Atribut memberikan instruksi atau informasi tambahan kepada browser atau perangkat lain tentang bagaimana menampilkan atau berinteraksi dengan elemen tersebut.
 Contoh dengan atribut:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="pengenalan-html.html#cb5-1" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;https://www.contoh.com&quot;</span><span class="kw">&gt;</span>Ini adalah tautan<span class="kw">&lt;/a&gt;</span></span></code></pre></div>
-<p>Dalam contoh di atas, href adalah atribut yang memberikan alamat URL yang ditautkan oleh tautan.</p>
-<ul>
-<li>Contoh Kombinasi Tag dan Atribut:</li>
-</ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="pengenalan-html.html#cb6-1" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;https://www.example.com&quot;</span> <span class="er">target</span><span class="ot">=</span><span class="st">&quot;_blank&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;noopener&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-2"><a href="pengenalan-html.html#cb6-2" tabindex="-1"></a>    Ini adalah tautan eksternal yang akan membuka di tab baru.</span>
-<span id="cb6-3"><a href="pengenalan-html.html#cb6-3" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code></pre></div>
-<p>Dalam contoh di atas:</p>
-<ul>
-<li><code>&lt;a&gt;</code>adalah tag untuk tautan.</li>
-<li>href adalah atribut yang menentukan alamat URL tautan.</li>
-<li>target=“_blank” adalah atribut yang mengatur tautan untuk dibuka di jendela/tab baru.</li>
-<li>rel=“noopener” adalah atribut yang memastikan keamanan tautan terbuka di tab baru.</li>
-</ul></li>
+<div class="sourceCode" id="cb6"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="pengenalan-html.html#cb6-1" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;https://www.contoh.com&quot;</span><span class="kw">&gt;</span>Ini adalah tautan<span class="kw">&lt;/a&gt;</span></span></code></pre></div>
+<p>Dalam contoh di atas, href adalah atribut yang memberikan alamat URL yang ditautkan oleh tautan.
+Contoh Kombinasi Tag dan Atribut:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb7-1"><a href="pengenalan-html.html#cb7-1" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;https://www.example.com&quot;</span> <span class="er">target</span><span class="ot">=</span><span class="st">&quot;_blank&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;noopener&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb7-2"><a href="pengenalan-html.html#cb7-2" tabindex="-1"></a>    Ini adalah tautan eksternal yang akan membuka di tab baru.</span>
+<span id="cb7-3"><a href="pengenalan-html.html#cb7-3" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code></pre></div></li>
 </ol>
+<p>Dalam contoh di atas:</p>
+<pre><code>- ```&lt;a&gt; ```adalah tag untuk tautan.
+- href adalah atribut yang menentukan alamat URL tautan.
+- target=&quot;_blank&quot; adalah atribut yang mengatur tautan untuk dibuka di jendela/tab baru.
+- rel=&quot;noopener&quot; adalah atribut yang memastikan keamanan tautan terbuka di tab baru.</code></pre>
 <p>Penggunaan tag dan atribut yang benar sangat penting dalam pembuatan halaman web yang valid dan bermakna. Mereka membantu Anda mengorganisir struktur konten dan memberikan instruksi tambahan kepada perangkat yang menginterpretasi halaman Anda, seperti browser dan mesin pencari.</p>
 
 </div>

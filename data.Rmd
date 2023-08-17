@@ -88,39 +88,41 @@ Pada awal dokumen HTML, biasanya terdapat deklarasi dokumen yang mengindikasikan
         ```
     
 Dalam contoh di atas, elemen-elemen seperti ```<header>```, ```<nav>```, ```<main>```, ```<section>```, dan ```<footer>``` digunakan untuk mengatur struktur dan tata letak halaman.
+
 2. Tag HTML:
     Tag adalah elemen dasar dalam HTML yang digunakan untuk mengelompokkan, mengatur, dan mendefinisikan struktur dan konten dalam halaman web. Setiap tag dimulai dengan tanda < dan diakhiri dengan tanda >. Ada dua jenis tag: tag tunggal dan tag pasangan.
+- Tag Tunggal: Tag tunggal tidak memiliki tag penutup dan umumnya digunakan untuk menampilkan elemen yang tidak memiliki konten, seperti gambar atau garis pemisah. Contoh: ```<img>``` untuk gambar.
+- Tag Pasangan: Tag pasangan memiliki tag pembuka dan tag penutup yang membungkus konten di antara keduanya. Contoh: ```<p>``` untuk paragraf. 
 
-    - Tag Tunggal: Tag tunggal tidak memiliki tag penutup dan umumnya digunakan untuk menampilkan elemen yang tidak memiliki konten, seperti gambar atau garis pemisah. Contoh: ```<img>``` untuk gambar.
-    - Tag Pasangan: Tag pasangan memiliki tag pembuka dan tag penutup yang membungkus konten di antara keduanya. Contoh: ```<p>``` untuk paragraf. 
+Contoh tag tunggal:
+    
+  ```html
+                    <img src="gambar.jpg" alt="Gambar Deskripsi">
+  ```   
+      
+Contoh tag pasangan:
 
-    Contoh tag tunggal:
-
-    ```html
-    <img src="gambar.jpg" alt="Gambar Deskripsi">
-    ```
-    Contoh tag pasangan:
-
-    ```html
-    <p>Ini adalah paragraf teks.</p>
-    ```
+  ```html
+                     <p>Ini adalah paragraf teks.</p>
+  ```
+            
 3. Atribut HTML:
     Atribut adalah informasi tambahan yang dapat ditambahkan ke dalam tag untuk memberikan detail atau pengaturan lebih lanjut. Setiap atribut memiliki nama dan nilai yang ditempatkan di dalam tag pembuka. Atribut memberikan instruksi atau informasi tambahan kepada browser atau perangkat lain tentang bagaimana menampilkan atau berinteraksi dengan elemen tersebut.
-    Contoh dengan atribut:
+Contoh dengan atribut:
 
     ```html
     <a href="https://www.contoh.com">Ini adalah tautan</a>
     ```
-    Dalam contoh di atas, href adalah atribut yang memberikan alamat URL yang ditautkan oleh tautan.
+Dalam contoh di atas, href adalah atribut yang memberikan alamat URL yang ditautkan oleh tautan.
+Contoh Kombinasi Tag dan Atribut:
 
-    - Contoh Kombinasi Tag dan Atribut:
     ```html
     <a href="https://www.example.com" target="_blank" rel="noopener">
         Ini adalah tautan eksternal yang akan membuka di tab baru.
     </a>
     ```
 
-    Dalam contoh di atas:
+Dalam contoh di atas:
 
     - ```<a> ```adalah tag untuk tautan.
     - href adalah atribut yang menentukan alamat URL tautan.
