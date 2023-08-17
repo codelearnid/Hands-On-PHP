@@ -55,6 +55,7 @@ Pada awal dokumen HTML, biasanya terdapat deklarasi dokumen yang mengindikasikan
         ```
    - Elemen ```<body>```:
         Elemen ```<body>``` berisi konten utama halaman web yang akan ditampilkan kepada pengguna:
+        
         ```html
         <body>
             <header>
@@ -85,7 +86,8 @@ Pada awal dokumen HTML, biasanya terdapat deklarasi dokumen yang mengindikasikan
             </footer>
         </body>
         ```
-        Dalam contoh di atas, elemen-elemen seperti ```<header>```, ```<nav>```, ```<main>```, ```<section>```, dan ```<footer>``` digunakan untuk mengatur struktur dan tata letak halaman.
+    
+Dalam contoh di atas, elemen-elemen seperti ```<header>```, ```<nav>```, ```<main>```, ```<section>```, dan ```<footer>``` digunakan untuk mengatur struktur dan tata letak halaman.
 2. Tag HTML:
     Tag adalah elemen dasar dalam HTML yang digunakan untuk mengelompokkan, mengatur, dan mendefinisikan struktur dan konten dalam halaman web. Setiap tag dimulai dengan tanda < dan diakhiri dengan tanda >. Ada dua jenis tag: tag tunggal dan tag pasangan.
 
