@@ -1,4 +1,4 @@
-# Pengenalan HTMl
+# Pengenalan HTML
 
 ## Berkenalan Dengan HTML
 HTML (HyperText Markup Language) adalah bahasa markah yang digunakan untuk membuat dan mengatur struktur konten dalam sebuah halaman web. HTML berfungsi sebagai dasar dari hampir semua halaman web di internet. Hal ini memungkinkan pengembang web untuk menentukan elemen-elemen seperti teks, gambar, tautan, video, formulir, dan lainnya dalam halaman web.
